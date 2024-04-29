@@ -103,24 +103,24 @@ const HMI = () => {
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px'}}>
             <img className="materialboxed" src={picture8} alt="Gambar3" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
           </div>
-          <p>--> HMI Projects: Halaman yang menjukkan proyek-proyek HMI yang dimiliki. Dimana pengguna dapat mengatur konfigurasi HMI tiap proyek serta mengubah status HMI.</p>
-          <p>--> License Activation: Halaman yang digunakan untuk mengaktivasi lisensi. </p>
-          <p>--> License Management: Halaman yang menunjukkan lisensi yang digunakan serta berapa lama waktu lisensi dapat digunakan. Juga tersedia informasi dimana saja lisensi dipasang.</p>
-          <p>--> Settings: Halaman yang digunakan untuk mengatur WebIQ server.</p>
-          <p>--> Version Information: Halaman yang menunjukkan versi WebIQ server yang digunakan.</p>
-          <p>--> Logout: Digunakan untuk keluar dari WebIQ server dan kembali ke halaman CtrlX OS.</p>
+          <p>-- HMI Projects: Halaman yang menjukkan proyek-proyek HMI yang dimiliki. Dimana pengguna dapat mengatur konfigurasi HMI tiap proyek serta mengubah status HMI.</p>
+          <p>-- License Activation: Halaman yang digunakan untuk mengaktivasi lisensi. </p>
+          <p>-- License Management: Halaman yang menunjukkan lisensi yang digunakan serta berapa lama waktu lisensi dapat digunakan. Juga tersedia informasi dimana saja lisensi dipasang.</p>
+          <p>-- Settings: Halaman yang digunakan untuk mengatur WebIQ server.</p>
+          <p>-- Version Information: Halaman yang menunjukkan versi WebIQ server yang digunakan.</p>
+          <p>-- Logout: Digunakan untuk keluar dari WebIQ server dan kembali ke halaman CtrlX OS.</p>
           <h6 style={{ marginTop: '30px' }}><b>WebIQ Designer</b></h6>
           <p>Setelah menginstall WebIQ Designer dan melakukan konfigurasi agar dapat menggunakan lisensi CtrlX, akan diarahkan pada tampilan berikut:</p>
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px' }}>
             <img className="materialboxed" src={picture9} alt="Gambar2" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
           </div>
           <p>Dimana pada halaman utama, kita dapat melihat list proyek HMI yang telah dibuat baik secara lokal maupun yang ada pada CtrlX. Dimana fitur yang ada pada WebIQ Designer adalah sebagai berikut:</p>
-          <p>--> New HMI Project: Digunakan untuk membuat proyek HMI baru.</p>
-          <p>--> Import HMI Project: Digunakan untuk mengimport proyek HMI yang ada pada lokal.</p>
-          <p>--> Reload HMI Project List: Digunakan untuk memuat ulang proyek yang ada.</p>
-          <p>--> Remote Runtime Manager: Digunakan untuk mengakses Runtime Manager secara remote menggunakan alamat</p>
-          <p>--> IP. View Demos: Melihat demo HMI yang tersedia pada website WebIQ.</p>
-          <p>--> What’s New: Melihat informasi terbaru seputar WebIQ.</p>
+          <p>-- New HMI Project: Digunakan untuk membuat proyek HMI baru.</p>
+          <p>-- Import HMI Project: Digunakan untuk mengimport proyek HMI yang ada pada lokal.</p>
+          <p>-- Reload HMI Project List: Digunakan untuk memuat ulang proyek yang ada.</p>
+          <p>-- Remote Runtime Manager: Digunakan untuk mengakses Runtime Manager secara remote menggunakan alamat</p>
+          <p>-- IP. View Demos: Melihat demo HMI yang tersedia pada website WebIQ.</p>
+          <p>-- What’s New: Melihat informasi terbaru seputar WebIQ.</p>
           <p style={{ marginTop: '30px' }}>Ketika menggunakan membuat atau merombak suatu proyek, kita akan diarahkan keapda tampilan berikut</p>
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px' }}>
             <img className="materialboxed" src={picture13} alt="Gambar2" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
