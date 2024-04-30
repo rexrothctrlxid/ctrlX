@@ -5,6 +5,7 @@ import NotFound from './components/NotFound';
 import Modbus from './pages/Modbus/Modbus';
 import Sorting from './pages/Sorting/Sorting';
 import HMI from './pages/HMI/hmi'
+import KontrolIO from './pages/KontrolIO/KontrolIO';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path='/modbus' element={<Modbus />} />
         <Route exact path='/sorting' element={<Sorting />} />
         <Route exact path='/hmi' element={<HMI />} />
+        <Route exact path='/kontrol' element={<KontrolIO />} />
       </Routes>
     </Router>
   );
