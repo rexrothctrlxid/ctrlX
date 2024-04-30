@@ -17,8 +17,6 @@ const Navbar = () => {
               <img src="https://media0.giphy.com/media/MJUyVWLgSR4ols9JZc/giphy.gif?cid=6c09b9528ueqydjqnpx29a3z4dp1wkvh5yf335be0twuswif&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" style={{ height: '60px', width: 'auto' }} alt="logo" />
             </a>
             <ul className="right hide-on-med-and-down">
-              <li><a href="#about" className="blue-text text-darken-4">About Us</a></li>
-              <li><a href="#portfolio" className="blue-text text-darken-4">Portfolio</a></li>
               <li><a className="dropdown-trigger blue darken-3" href="#!" data-target="dropdown1">How-to articles<i className="material-icons right">arrow_drop_down</i></a></li>
             </ul>
           </div>
