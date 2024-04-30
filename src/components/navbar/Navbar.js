@@ -30,7 +30,10 @@ const Navbar = () => {
           window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#' ?
               <>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#/"><b>Home</b></a>
+                  <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                  <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                  <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                  <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
                 </li>
               </>
             :
@@ -39,6 +42,9 @@ const Navbar = () => {
                   <>
                     <li className="nav-item">
                       <a className="nav-link active" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                      <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                      <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                      <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
                     </li>
                   </>
                 :
@@ -46,7 +52,10 @@ const Navbar = () => {
                   window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/sorting' ? 
                     <>
                       <li className="nav-item">
+                        <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
                         <a className="nav-link active" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                        <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                        <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
                       </li>
                     </>
                   :
@@ -54,7 +63,10 @@ const Navbar = () => {
                     window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/hmi' ? 
                       <>
                         <li className="nav-item">
+                          <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                          <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
                           <a className="nav-link active" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                          <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
                         </li>
                       </>
                     :
@@ -62,6 +74,9 @@ const Navbar = () => {
                       window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/kontrol' ? 
                       <>
                         <li className="nav-item">
+                          <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                          <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                          <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
                           <a className="nav-link active" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
                         </li>
                       </>
