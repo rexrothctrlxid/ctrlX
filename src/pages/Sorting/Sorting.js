@@ -27,61 +27,62 @@ const Sorting = () => {
       <Carousel />      
       <div className="container">
         <h3 style={{ textAlign: 'center', marginTop: '30px' }}><b>Cara Storing Data kedalam Influxdb dengan ctrlX</b></h3>
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '100px', marginBottom: '30px' }}>
-          <img className="materialboxed" src={pic1} alt="Modbus" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+        <div className='pct' >
+          <img className="materialboxed" src={pic1} alt="picture1" />
         </div>
+        
         <h4>A. Node-red + Influxdb</h4>
         <ul>
           <li>1. Buka aplikasi node-red, install pallete influxdb “node-red-contrib-influxdb”</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px'}}>
-            <img className="materialboxed" src={pic2} alt="Gambar1" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic2} alt="picture2" />
           </div>
         
         <h4>B. Setup aplikasi influxdb</h4>
           <li>1. Masukan SD Card ke dalam ctrlX, Masuk ke menu setting - storage - format SD Card kedalam format Ext4</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px' }}>
-            <img className="materialboxed" src={pic3} alt="Gambar2" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic3} alt="picture3" />
           </div>
           <li>2. Masuk ke “Manage app data”, edit file konfigurasi influxdb, sesuaikan konfigurasi seperti gambar dibawah ini.</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px'}}>
-            <img className="materialboxed" src={pic4} alt="Gambar3" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic4} alt="picture4" />
           </div>
           <li style={{ marginTop: '5px', marginBottom: '30px'}}>3. REBOOT ctrlX</li>
 
         <h4>C. Setting influxDB</h4>
           <li>1. Masuk kedalam aplikasi influxdb, klik “Get Started”</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px' }}>
-            <img className="materialboxed" src={pic5} alt="Gambar2" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic5} alt="picture5" />
           </div>
           <li>2. Setting “Username”, “Password”, “Nama organisasi”, “Bucket” (Tempat penyimpanan data), klik continue</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px'}}>
-            <img className="materialboxed" src={pic6} alt="Gambar3" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic6} alt="picture6" />
           </div>
           <li>3. Buat API Token (digunakan untuk mengamankan database), Klik “Data” - “API Tokens” - “Generate API Tokens”</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px' }}>
-            <img className="materialboxed" src={pic7} alt="Gambar2" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic7} alt="picture7" />
           </div>
           <li>4. Copy API Tokens</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px'}}>
-            <img className="materialboxed" src={pic8} alt="Gambar3" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic8} alt="picture8" />
           </div>
 
         <h4>D. Setting Node-RED</h4>
         <li>1. Buka example code untuk konfigurasi node-red dan influxdb</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px' }}>
-            <img className="materialboxed" src={pic9} alt="Gambar2" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic9} alt="picture9" />
           </div>
           <li>2. Double Klik pada node influxdb, Masukan konfigurasi server, pilih versi 2.0, masukan token, organization, bucket (sesuai dengan settingan influx sebelumnya) dan measurement (data yang kita ingin masukan ke dalam database), lakukan seperti dibawah ini.</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px'}}>
-            <img className="materialboxed" src={pic10} alt="Gambar3" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic10} alt="picture10" />
           </div>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px', marginBottom: '30px'}}>
-            <img className="materialboxed" src={pic11} alt="Gambar3" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic11} alt="picture11" />
           </div>
           <li style={{ marginTop: '5px', marginBottom: '30px' }}>3. Apabila setting telah selesai, deploy program</li>
           <li>4. Masuk ke dashboard influxdb, ikuti langkah pada gambar dibawah ini untuk mngecek apakah nilai sudah berhasil masuk atau belum.</li>
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5px'}}>
-            <img className="materialboxed" src={pic12} alt="Gambar3" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <div className='pct' >
+            <img className="materialboxed" src={pic12} alt="picture12" />
           </div>
         </ul>
       </div>

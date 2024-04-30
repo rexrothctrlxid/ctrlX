@@ -26,25 +26,27 @@ const Navbar = () => {
       <ul id="dropdown1" className="dropdown-content">
         {                
           window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#' ?
-              <>
-                <li className="nav-item">
-                  <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
-                  <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
-                  <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
-                  <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
-                </li>
-              </>
+            <>
+              <li className="nav-item">
+                <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
+                <a className="nav-link" href="#/keyvalue">Key-Value Database</a>
+              </li>
+            </>
             :
             (
               window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/modbus' ? 
-                  <>
-                    <li className="nav-item">
-                      <a className="nav-link active" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
-                      <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
-                      <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
-                      <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
-                    </li>
-                  </>
+                <>
+                  <li className="nav-item">
+                    <a className="nav-link active" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                    <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                    <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                    <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
+                    <a className="nav-link" href="#/keyvalue">Key-Value Database</a>
+                  </li>
+                </>
                 :
                 (
                   window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/sorting' ? 
@@ -54,42 +56,59 @@ const Navbar = () => {
                         <a className="nav-link active" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
                         <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
                         <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
+                        <a className="nav-link" href="#/keyvalue">Key-Value Database</a>
                       </li>
                     </>
-                  :
-                  (
-                    window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/hmi' ? 
-                      <>
-                        <li className="nav-item">
-                          <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
-                          <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
-                          <a className="nav-link active" href="#/hmi">HMI(WebIQ & Node-RED)</a>
-                          <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
-                        </li>
-                      </>
                     :
                     (
-                      window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/kontrol' ? 
-                      <>
-                        <li className="nav-item">
-                          <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
-                          <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
-                          <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
-                          <a className="nav-link active" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
-                        </li>
-                      </>
-                    :
-                    <>
-                      <li className="nav-item">
-                        <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
-                        <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
-                        <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
-                        <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
-                      </li>
-                    </>
-                    )
+                      window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/hmi' ? 
+                        <>
+                          <li className="nav-item">
+                            <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                            <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                            <a className="nav-link active" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                            <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
+                            <a className="nav-link" href="#/keyvalue">Key-Value Database</a>
+                          </li>
+                        </>
+                        :
+                        (
+                          window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/kontrol' ? 
+                            <>
+                              <li className="nav-item">
+                                <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                                <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                                <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                                <a className="nav-link active" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
+                                <a className="nav-link" href="#/keyvalue">Key-Value Database</a>
+                              </li>
+                            </>
+                            :
+                            (
+                              window.location.href === 'https://rexrothctrlxid.github.io/ctrlX/#/keyvalue' ? 
+                                <>
+                                  <li className="nav-item">
+                                    <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                                    <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                                    <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                                    <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
+                                    <a className="nav-link active" href="#/keyvalue">Key-Value Database</a>
+                                  </li>
+                                </>
+                                :
+                                <>
+                                  <li className="nav-item">
+                                    <a className="nav-link" href="#/modbus">Cara akses Modbus TCP ctrlX</a>
+                                    <a className="nav-link" href="#/sorting">Cara storing data kedalam Influxdb dengan ctrlX</a>
+                                    <a className="nav-link" href="#/hmi">HMI(WebIQ & Node-RED)</a>
+                                    <a className="nav-link" href="#/kontrol">Kontrol I/O melalui Node-RED</a>
+                                    <a className="nav-link" href="#/keyvalue">Key-Value Database</a>
+                                  </li>
+                                </>
+                            )
+                        )
                     
-                  )
+                    )
                 )
             )
         }

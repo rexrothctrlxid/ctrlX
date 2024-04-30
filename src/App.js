@@ -6,6 +6,7 @@ import Modbus from './pages/Modbus/Modbus';
 import Sorting from './pages/Sorting/Sorting';
 import HMI from './pages/HMI/hmi'
 import KontrolIO from './pages/KontrolIO/KontrolIO';
+import KeyValue from './pages/KeyValue/KeyValue';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path='/sorting' element={<Sorting />} />
         <Route exact path='/hmi' element={<HMI />} />
         <Route exact path='/kontrol' element={<KontrolIO />} />
+        <Route exact path='/keyvalue' element={<KeyValue />} />
       </Routes>
     </Router>
   );
