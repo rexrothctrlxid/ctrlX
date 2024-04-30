@@ -26,7 +26,7 @@ const Sorting = () => {
       <Navbar />
       <Carousel />      
       <div className="container">
-        <h3 style={{ textAlign: 'center', marginTop: '30px' }}>Cara Storing Data kedalam Influxdb dengan ctrlX</h3>
+        <h3 style={{ textAlign: 'center', marginTop: '30px' }}><b>Cara Storing Data kedalam Influxdb dengan ctrlX</b></h3>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '100px', marginBottom: '30px' }}>
           <img className="materialboxed" src={pic1} alt="Modbus" style={{ maxWidth: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)' }} />
         </div>

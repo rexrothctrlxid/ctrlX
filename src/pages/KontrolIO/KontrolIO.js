@@ -22,7 +22,7 @@ const KontrolIO = () => {
       <Carousel />
       <div className='container'>
         <lu>
-          <h3 style={{ textAlign: 'center', marginTop: '30px', marginBottom: '50px' }}>Kontrol I/O melalui Node-RED</h3>
+          <h3 style={{ textAlign: 'center', marginTop: '30px', marginBottom: '50px' }}><b>Kontrol I/O melalui Node-RED</b></h3>
 
           <h4>INTRODUCTION</h4>
             <p>Selain menggunakan PLC, I/O CtrlX juga dapat di kontrol melalui aplikasi lain seperti Node-RED. hal tersebut dapat terjadi karena CtrlX menggunakan sistem Data Layer dimana setiap apps yang di install dalam CtrlX akan berbagi satu platform data yang sama, sehingga setiap apps dapat saling mengakses data satu sama lain dengan mudah.</p>

@@ -23,7 +23,7 @@ const Modbus = () => {
       <Navbar />
       <Carousel />
       <div className="container">
-        <h3 style={{ textAlign: 'center', marginTop: '30px' }}>Cara Akses Modbus TCP ctrlX</h3>
+        <h3 style={{ textAlign: 'center', marginTop: '30px' }}><b>Cara Akses Modbus TCP ctrlX</b></h3>
         <h4>Requirements:</h4>
         <ul>
           <li>ctrlX CORE - x3 atau x7 dengan ctrlX OS</li>

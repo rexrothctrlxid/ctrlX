@@ -40,7 +40,7 @@ const HMI = () => {
       <Carousel />
       <div className="container">
         <lu>
-        <h3 style={{ textAlign: 'center', marginTop: '30px', marginBottom: '50px' }}>HMI (WebIQ & Node-RED)</h3>
+        <h3 style={{ textAlign: 'center', marginTop: '30px', marginBottom: '50px' }}><b>HMI (WebIQ & Node-RED)</b></h3>
         <p>HMI atau Human-Machine Interface adalah antarmuka yang memungkinkan interaksi antara manusia dan mesin. HMI bertujuan untuk memudahkan pengguna atau operator dalam mengontrol, memantau, dan berinteraksi dengan peralatan atau sistem mesin. Pada CtrlX, terdapat aplikasi yang tersedia pada CtrlX Store yang dapat digunakan, yaitu WebIQ dan Node-Red. Pada artikel ini akan menjelaskan tahapan dari installasi hingga penggunaannya.</p>
         
         <h4 style={{ textAlign: 'center', marginTop: '50px' }}>WebIQ</h4>
