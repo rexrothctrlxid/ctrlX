@@ -58,19 +58,19 @@ const HMI = () => {
           <p>1. Pastikan versi server yang di download sesuai dengan CtrlX OS dan WebIQ Designer yang dimiliki.</p>
           <p>2. Sambungkan CtrlX CORE dengan device yang digunakan. Petunjuk dapat dilihat disini. </p>
           <p>3. Buka CtrlX OS melalui alamat IP CtrlX CORE, masukkan informasi login yang sesuai. IP address dapat berubah sesuai port dan metode alokasi IP address yang digunakan.</p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture1} alt="picture1" />
             </div>
           <p>4. Jika sudah masuk, pastikan keadaan CtrlX CORE dalam keadaan <b><i> service.</i></b></p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture2} alt="picture2" />
             </div>
           <p>5. Navigasi ke settings -- installed app -- klik Install Apps from File </p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture3} alt="picture3" />
             </div>
           <p>6. Pilih file server yang sudah di download, pastikan memilih file yang benar!</p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture4} alt="picture4" />
             </div>
           <p>Tunggu hingga file terinstall. Jika sudah, maka dapat langsung digunakan. Jika belum memiliki license, maka dapat melihat penjelasannya disini.</p>
@@ -79,7 +79,7 @@ const HMI = () => {
           <p>Setelah WebIQ Server telah di install, maka perlu menginstall WebIQ Designer. Untuk WebIQ Designer, diinstall langsung pada os device penertjaan. Dimana langkah sebagai berikut:</p>
           <p>1. Download file install disini</p>
           <p>2. Install WebIQ Designer sesuai dengan panduan instalasi. Pastikan untuk mendownload support untuk ctrlX</p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
             <img className="materialboxed" src={picture5} alt="picture5" />
           </div>
           <p>3. Setelah dipastikan bahwa sudah terpasang, klik kanan pada shortcut designer dan klik properties, lakukan perubahan pada “Target” sebagai berikut:</p>
@@ -89,18 +89,18 @@ const HMI = () => {
             <li>Tambahkan string “ --user-data=webiq-designerctrlx” (di mana “webiq-designerctrlx” adalah ruang kerja nama terletak di folder %AppData%) </li>
             <li>Pastikan ada ruang kosong di antara setiap entri </li>
           </lu>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
             <img className="materialboxed" src={picture6} alt="picture6" />
           </div>
 
         <h4>USE</h4>
           <h6><b>WebIQ Server</b></h6>
           <p>Setelah server terpasang, kita dapat mengakses server. Ketika pertama kali mengakses server WebIQ, kita akan diarahkan untuk membuat credential login seperti berikut:</p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
             <img className="materialboxed" src={picture7} alt="picture7" />
           </div>
           <p>Setelah membuat akun untuk login, kita akan dibawa pada tampilan utama sebagai berikut: </p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
             <img className="materialboxed" src={picture8} alt="picture8" />
           </div>
           <p>-- HMI Projects: Halaman yang menjukkan proyek-proyek HMI yang dimiliki. Dimana pengguna dapat mengatur konfigurasi HMI tiap proyek serta mengubah status HMI.</p>
@@ -111,7 +111,7 @@ const HMI = () => {
           <p>-- Logout: Digunakan untuk keluar dari WebIQ server dan kembali ke halaman CtrlX OS.</p>
           <h6 style={{ marginTop: '30px' }}><b>WebIQ Designer</b></h6>
           <p>Setelah menginstall WebIQ Designer dan melakukan konfigurasi agar dapat menggunakan lisensi CtrlX, akan diarahkan pada tampilan berikut:</p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
             <img className="materialboxed" src={picture9} alt="picture9" />
           </div>
           <p>Dimana pada halaman utama, kita dapat melihat list proyek HMI yang telah dibuat baik secara lokal maupun yang ada pada CtrlX. Dimana fitur yang ada pada WebIQ Designer adalah sebagai berikut:</p>
@@ -122,7 +122,7 @@ const HMI = () => {
           <p>-- IP. View Demos: Melihat demo HMI yang tersedia pada website WebIQ.</p>
           <p>-- What’s New: Melihat informasi terbaru seputar WebIQ.</p>
           <p style={{ marginTop: '30px' }}>Ketika menggunakan membuat atau merombak suatu proyek, kita akan diarahkan keapda tampilan berikut</p>
-          <div className='pct'>
+          <div className='pct' style={{justifyContent: 'center'}}>
             <img className="materialboxed" src={picture13} alt="picture13" />
           </div>
           <p>1. Navbar: Berisikan menu yang dimana dapat menyimpan proyek, melihat live preview, mengedit proyek, dan melihat tampilan proyek dengan ratio layar yang berbeda.</p>
@@ -140,67 +140,67 @@ const HMI = () => {
         <p>1. Pastikan versi server yang di download sesuai dengan CtrlX OS yang dimiliki.</p>
         <p>2. Sambungkan CtrlX CORE dengan device yang digunakan. </p>
         <p>3. Buka CtrlX OS melalui alamat IP CtrlX CORE, masukkan informasi login yang sesuai. IP address dapat berubah sesuai port dan metode alokasi IP address yang digunakan.</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture1} alt="picture1" />
         </div>
         <p>4. Jika sudah masuk, pastikan keadaan CtrlX CORE dalam keadaan <b><i> service.</i></b></p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture2} alt="picture2" />
         </div>
         <p>5. Navigasi ke settings -- installed app -- klik Install Apps from File </p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture4} alt="picture4" />
         </div>
         <p>6. Pilih file yang sudah di download, pastikan memilih file yang benar</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture14} alt="picture14" />
         </div>
         <p>Tunggu hingga file terinstall. Jika sudah, maka dapat langsung digunakan</p>
       
       <h4>USE</h4>      
         <p>Pada Node-RED, kita dapat melakukan banyak hal dari mengambil data melalui data layer yang dimiliki oleh CtrlX hingga HMI, pada dokumentasi ini akan berfokuskan pada pengaplikasian Node-RED sebagai HMI. Pertama, ketika membuka dashboard Node-RED, kita akan disuguhkan dengan tampilan sebagai berikut:</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture11} alt="picture11" />
         </div>
         <p>Untuk dapat menggunakan node-RED sebagai HMI, kita dapat menggunakan node dashboard. Pada ctrlX node ini sudah tersedia, namun jika belum, node dapat diinstal disini. Pastikan ctrlX memiliki koneksi internet untuk mendownload pallet/node. Pada node dashboard, dilengkapi dengan widgets yang berguna untuk membuat HMI, dimana nama dari node merepresentasikan widget yang digunakan.</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture12} alt="picture12" />
             </div>
         <p>Pada ctrlX, node-RED memiliki node khusus untuk mengakses data layer yang bekerja dengan sistem request dan subscription.</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture15} alt="picture15" />
         </div>
         <p>Untuk melihat dashboard, terdapat dua cara yang dapat dilakukan. Dimana adalah: </p>
         <p>1. Melaui ctrlX CORE</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture16} alt="picture16" />
         </div>
         <p>2. Melalui Node-RED Flow Editor</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture17} alt="picture17" />
         </div>
         <p>Untuk mengatur dashboard, kita dapat menggunakan pengaturan dashboard, untuk mengakses pengaturan, buka toolbar pada bagian kanan dari flow-editor, dan klik tanda panah bawah dan klik dashboard seperti pada ilustrasi berikut:</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture18} alt="picture18" />
         </div>
         <p>Pada dashboard, kita dapat menemukan 5 bagian utama. Pertama, tab Layout digunakan untuk mengatur elemen pada dashboard untuk HMI. Tab bekerja seperti halaman. Dimana tampilan tiap tab dapat berbeda-beda dan disesuaikan dengan kebutuhan. Berikutnya, di dalam tab terdapat group yang bekerja seperti div pada html. Sehingga pada mengaturan layout, kita dapat mengatur perubahan layout sesuai group. Terakhir, dalam group terdapat elemen yang digunakan pada dashboard.</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture19} alt="picture19" />
         </div>
         <p>Kita dapat mengatur layout dari tab dengan menggunakan layout pada opsi tab. Sistem yang digunakan adala grid dan bekerja secara drag and drop untuk mengubah layoutnya. Dimana tampilannya sebagai berikut:</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture20} alt="picture20" />
         </div>
         <p>Kedua, tab Site yang memungkinkan pengaturan antarmuka web dashboard secara keseluruhan. Dimana kita dapat mengatur judul, opsi tampilan web, format tanggal yang digunakan, dan pengaturan untuk bentuk widget.</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture21} alt="picture21" />
         </div>
         <p>Ketiga, tab Theme digunakan untuk mengatur tema yang digunakan oleh web dashboard. Pengaturan yang dapat diubah seperti mode dan font yang digunakan.</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture22} alt="picture22" />
         </div>
         <p>Dan yang terakhir, terdapat tab Angular yang berisikan pengaturan warna pada web</p>
-        <div className='pct'>
+        <div className='pct' style={{justifyContent: 'center'}}>
           <img className="materialboxed" src={picture23} alt="picture23" />
         </div>
         </lu>

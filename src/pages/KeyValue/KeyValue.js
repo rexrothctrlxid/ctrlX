@@ -41,15 +41,15 @@ const KeyValue = () => {
               <p>1.	Pastikan versi server yang di download sesuai dengan CtrlX OS yang dimiliki.</p>
               <p>2.	Sambungkan CtrlX CORE dengan device yang digunakan.</p>
               <p>3.	Buka CtrlX OS melalui alamat IP CtrlX CORE, masukkan informasi login yang sesuai. IP address dapat berubah sesuai port dan metode alokasi IP address yang digunakan.</p>
-              <div className='pct' >
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture1} alt="picture1" />
               </div>
               <p>4.	Jika sudah masuk, pastikan keadaan CtrlX CORE dalam keadaan <b><i>service.</i></b></p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture2} alt="picture2" />
               </div>
               <p>5.	Navigasi ke settings -- installed app -- klik Install Apps from File</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture3} alt="picture3" />
               </div>
               <p>6.	Pilih file server yang sudah di download, pastikan memilih file yang benar!</p>
@@ -59,15 +59,15 @@ const KeyValue = () => {
               <p>KVD tidak dapat diakses seperti aplikasi pada umumnya. Untuk dapat mengakses KVD, diperlukan untuk membuka <b>Manage App Data.</b> Untuk membukanya, dapat melakukan berikut:</p>
               <p>1. Membuka ctrlX CORE seperti biasa, dan masuk ke halaman utama.</p>
               <p>2. Memilih opsi <b>Manage App Data</b> sesuai gambar dibawah. Untuk tombolnya pun ada di halaman utama ctrlX CORE</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture4} alt="picture4" />
               </div>
               <p>3.	Berikutnya akan dialihkan kedalam halaman aktif. Dimana kita dapat memilih KVD sebagai berikut:</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture5} alt="picture5" />
               </div>
               <p>4.	Setelah memilih KVD Configuration, maka akan dialihkan kepada halaman KVD. Dimana pada halaman ini berisikan contoh penggunaan KVD, sample JSON code, serta dokumentasi singkat penggunaan KVD.</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture6} alt="picture6"  />
               </div>
               <div className="alert card blue lighten-4 blue-text text-darken-3">
@@ -151,33 +151,33 @@ const KeyValue = () => {
               </div>
               <p>1. Membuka Flow Editor Node-RED</p>
               <p>2.	Membuat flow sebagai berikut:</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture7} alt="picture7" /> 
               </div>
               <p>Dimana dengan konfigurasi Function Node sebagai berikut:</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture8} alt="picture8" /> 
               </div>
               <p>Dan konfigurasi ctrlX Request Node sebagai berikut:</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture9} alt="picture9" /> 
               </div>
               <p>Pastikan pada Function dan Request Node memiliki path yang sama.</p>
               <p>3.	Deploy flow dan klik button di sebelah Timestamp Node</p>
               <p>4.	Lalu buka ctrlX Data Layer, dan masuk kedalam directory samples -- kvd -- implici -- xyz</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture10} alt="picture10" /> 
               </div>
               <p>5.	Jika kita buka file abc, maka kita akan melihat nilai value yang disimpan abc seperti berikut:</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture11} alt="picture11" /> 
               </div>
               <p>Kita dapat mengubah value dari ctrlX Data Layer secara langsung, mari kita coba ubah menjadi 42 dan klik save.</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture12} alt="picture12" /> 
               </div>
               <p>6.	Buat flow seperti pada nomor 2, namun hapus Function Node dan mengubah method dari WRITE menjadi READ. Deploy dan klik tombol disebelah timestamp. Maka akan di dapat hasil sebagai berikut:</p>
-              <div className='pct'>
+              <div className='pct' style={{justifyContent: 'center'}}>
                 <img className="materialboxed" src={picture13} alt="picture13" /> 
               </div>
           </lu>

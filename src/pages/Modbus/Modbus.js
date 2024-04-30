@@ -32,29 +32,29 @@ const Modbus = () => {
           </ul>
         
         <h4 style={{ marginTop: '30px' }}>Topologi Modbus</h4>
-          <div className='pct' >
+          <div className='pct' style={{justifyContent: 'center'}}>
             <img className="materialboxed" src={picture7} alt="picture7" />
           </div>
         
         <h4>Set-Up Komunikasi</h4>
           <ul>
             <li>1. Buka ctrlX web server, click Modbus TCP, click “Add Modbus TCP Device”.</li>
-            <div className='pct' >
+            <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture1} alt="picture1" />
             </div>
             <li>2. Masukkan informasi Modbus TCP pada window (nama, IP addres, Port, dan unit ID) lalu klik save.</li>
-            <div className='pct' >
+            <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture2} alt="picture2" />
             </div>
             <li>3. Klik pada tombol (+) untuk menambahkan subskripsi baru, kemudian isi subskripsi</li>
-            <div className='pct' >
+            <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture3} alt="picture3" />
             </div>
-            <div className='pct' >
+            <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture4} alt="picture4" />
             </div>
             <li>4. Setelah device berhasil terhubung, maka tampilanya akan seperti dibawah ini.</li>
-            <div className='pct' >
+            <div className='pct' style={{justifyContent: 'center'}}>
               <img className="materialboxed" src={picture5} alt="picture5" />
             </div>
           </ul>
